@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 tdw
 ===
 TDW是腾讯基于hive和hadoop之上构建的数据仓库系统，在使用中，腾讯对hive做了大量定制，作为TDW的查询引擎（TDW QE）。这个项目将腾讯的hive分支以apache licence 2.0协议开源。
@@ -778,4 +777,3 @@ tablename：要创建的表名，支持分区表。创建表的dbname，tablenam
 [Hive在腾讯分布式数据仓库的实践](http://www.csdn.net/article/2012-11-19/2811864-tecent_ZhaoWei_interview)  
 [TDW在Hadoop上的实践分享](http://www.csdn.net/article/a/2012-05-23/2805878)  
 [大规模Hadoop集群实践：腾讯分布式数据仓库（TDW）](http://codecloud.net/hadoop-tdw-823.html)  
->>>>>>> 6406645a5402194860031610fcf3bd33340ecfb8
