@@ -1,5 +1,6 @@
 tdw邮件列表：[https://groups.google.com/d/forum/tdw-user](https://groups.google.com/d/forum/tdw-user)
 
+
 tdw
 ===
 TDW是腾讯基于hive和hadoop之上构建的数据仓库系统，在使用中，腾讯对hive做了大量定制，作为TDW的查询引擎（TDW QE）。这个项目将腾讯的hive分支以apache licence 2.0协议开源。
@@ -384,7 +385,7 @@ tablename：要创建的表名，支持分区表。创建表的dbname，tablenam
    我们基于apache hive 0.4.1版本，添加了大量SQL语法和函数，在添加过程中，我们尽量参考已有的SQL语法（如MySQL、PostgreSQL），但是很少参考社区hive 0.4.1后的版本的语法。因此TDW QE的SQL语法与apache hive有差异，不完全兼容。对于SQL语法，TDW QE的往往比apache hive的更标准（如cube和rollup的语法）。
 
 5. 与TDW QE配合使用的hadoop版本有哪些？  
-   在腾讯的TDW生产环境中，我们使用的hadoop版本基于hadoop-0.20.1，及CDH3u3（基于apapche hadoop-0.20.2），我们没有测试过更高的hadoop版本。但是理论上与hadoop-0.20.x接口兼容的hadoop版本都可以用。对于hadoop 2.0版本的支持，我们正在开发中，将在未来一两个月完成。
+   在腾讯的TDW生产环境中，我们使用的hadoop版本基于hadoop-0.20.1，及CDH3u3（基于apapche hadoop-0.20.2），我们没有测试过更高德hadoop版本。但是理论上与hadoop-0.20.x接口兼容的hadoop版本都可以用。对于hadoop 2.0版本的支持，我们正在开发中，将在未来一两个月完成。
 
 # TDW相关链接 #
 [腾讯TDW项目：开源的分布式数据仓库](http://code.csdn.net/news/2818988)  
